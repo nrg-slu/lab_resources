@@ -9,7 +9,7 @@ This repository is a collection of tutorials and links about our lab system and 
 
 ## System Tutorials  
 
-- [P4 Resources](./resources/System%20Tutorials/P4_tutorial)
+- [P4 Resources](./resources/System%20Tutorials/P4_tutorial.md)
 - [Chameleon](./resources/System%20Tutorials/Chameleon.pdf)
 - [Libra](./resources/System%20Tutorials/Libra.pdf)
 - [SLURM](./resources/System%20Tutorials/SLURM.md)
