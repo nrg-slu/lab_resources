@@ -6,6 +6,7 @@ This repository is a collection of tutorials and links about our lab system and 
 
 - [Creating a custom Jetson Container](./resources/Jetson%20Orin%20AGX%20Developer%20Kit%2064GB/Creating_custom_jetson_container.md)
 - [Jetson Container OPEN VLA](./resources/Jetson%20Orin%20AGX%20Developer%20Kit%2064GB/JetsonContainerOpenVLA.md)
+- [Installing Libraries with pip](./resources/Jetson%20Orin%20AGX%20Developer%20Kit%2064GB/InstallingLibrarieswithPIP.md)
 
 ## System Tutorials  
 
