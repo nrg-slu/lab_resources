@@ -1,11 +1,13 @@
 # LAB Resources 
 
 This repository is a collection of tutorials and links about our lab system and resources.
+## Meetings summary  and pdf
 
-## Experiments 
-
-- [WiFi](./resources/Tests/Wireless_Performance.md)
-- [AI](./resources/Tests/Video2Text_summarization.md)
+- [Meetings](https://github.com/nrg-slu/Tests/tree/main/Meetings)
+## Experiments (Private Repo)
+All tests in [tests](https://github.com/nrg-slu/Tests/tree/main). 
+- [Wireless](https://github.com/nrg-slu/Tests/tree/main/Tests/Wireless)
+- [AI](https://github.com/nrg-slu/Tests/tree/main/Tests/AI)
 
 ## Active Devices 
 
