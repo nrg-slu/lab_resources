@@ -1,6 +1,43 @@
 # LAB Resources 
 
-This repository is a collection of tutorials and links about our lab system and resources. 
+This repository is a collection of tutorials and links about our lab system and resources.
+
+## Experiments 
+
+- [WiFi](./resources/Tests/Wireless_Performance.md)
+- [AI](./resources/Tests/Video2Text_summarization.md)
+
+## Active Devices 
+
+### Dell Precision Laptop 
+12th Gen Intel(R) Core(TM) i7-1260P, 
+14.9 G of available RAM, 
+, 4 G of swap 
+, 1 Gbps connection, WiFi 6E. 
+
+- Aldo 10.172.13.125
+- Giovanni 10.172.13.126
+- Giacomo 10.172.13.127
+- Molly 10.172.13.128
+- Dolly 10.172.13.129
+- Lolly 10.172.13.130   
+ 
+
+### Zimaboard 2 
+- Mattia 10.172.13.124
+
+### Jetson Orin AGX Developer kit
+
+- Nina 10.172.13.121
+- Bevo 10.172.13.122
+- Bari (MISSING) 10.172.13.123
+
+### Jetson AGX Thor 
+- Ragnarok 10.172.13.140
+
+### Server RTX 6000 PRO 
+- Angela Merkel 10.172.13.141
+
 
 ## Jetson Orin AGX Developer Kit 64GB
 
@@ -10,6 +47,7 @@ This repository is a collection of tutorials and links about our lab system and 
 
 ## System Tutorials  
 
+- [Accessing servers](./resources/System%20Tutorials/server_connection.md)
 - [P4 Resources](./resources/System%20Tutorials/P4_tutorial.md)
 - [Chameleon](./resources/System%20Tutorials/Chameleon.pdf)
 - [Libra](./resources/System%20Tutorials/Libra.pdf)
