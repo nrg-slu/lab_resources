@@ -38,7 +38,7 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 - Ragnarok 10.172.13.140
 
 ### Server RTX 6000 PRO 
-- Angela Merkel 10.172.13.141
+- Angela Merkel 10.172.13.140
 
 
 ## Jetson Orin AGX Developer Kit 64GB
