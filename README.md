@@ -35,7 +35,7 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 - Bari (MISSING) 10.172.13.123
 
 ### Jetson AGX Thor 
-- Ragnarok 10.172.13.140
+- Ragnarok 10.172.13.141
 
 ### Server RTX 6000 PRO 
 - Angela Merkel 10.172.13.140
@@ -49,7 +49,8 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 
 ## System Tutorials  
 
-- [Running commands concurrently on multiple machines](./resources/System%20Tutorials/pdsh.md)
+- [code carbon library: Measuring energy consumption of python code](./resources/System%20Tutorials/code_carbon.md)
+- [pdsh: Running commands concurrently on multiple machines](./resources/System%20Tutorials/pdsh.md)
 - [Accessing servers](./resources/System%20Tutorials/server_connection.md)
 - [P4 Resources](./resources/System%20Tutorials/P4_tutorial.md)
 - [Chameleon](./resources/System%20Tutorials/Chameleon.pdf)
