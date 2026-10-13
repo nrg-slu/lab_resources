@@ -25,4 +25,4 @@ HOSTS="aldo,giovanni,giacomo"
 ```bash 
 pdsh -R ssh -l [username] -w "$HOSTS" [command]
 ```
-`Note`: If you forgot your username Mattia's convention is to use the first letter of the first name and then the surname (Ex: Mattia Fiore -> mfiore)
+`Note`: If you forgot your username Mattia's convention is to use the first letter of the first name and then the surname (Ex: Mattia Fiore -> mfiore)  

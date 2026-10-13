@@ -53,7 +53,7 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 - [pdsh: Running commands concurrently on multiple machines](./resources/System%20Tutorials/pdsh.md)
 - [Accessing servers](./resources/System%20Tutorials/server_connection.md)
 - [P4 Resources](./resources/System%20Tutorials/P4_tutorial.md)
-- [Chameleon](./resources/System%20Tutorials/Chameleon.pdf)
+- [Chameleon](./resources/System%20Tutorials/chameleon.md)
 - [Libra](./resources/System%20Tutorials/Libra.pdf)
 - [SLURM](./resources/System%20Tutorials/SLURM.md)
 - [Docker](./resources/System%20Tutorials/Docker.pdf)
