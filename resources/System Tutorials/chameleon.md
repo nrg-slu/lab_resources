@@ -29,7 +29,62 @@ openstack token issue
 ```
 Which should results in the following output
 ```bash 
-You have provided a username. In the V3 identity API a username is only unique within a domain so you must also provide either a user_domain_id or user_domain_name.
++------------+-----------------------------------------------------------------------+
+| Field      | Value                                                                 |
++------------+-----------------------------------------------------------------------+
+| expires    |                   Something                                           |
+| id         |                                                                       |
+|            |                                                                       |
+|            |                                                                       |
+|            |                                                                       |
+|            |                                                                       |
+|            |                                                                       |
+| project_id |                                                                       |
+| user_id    |                                                                       |
++------------+-------------------------------------------------------------
 ```
 
 ### Reserving a machine 
+
+`NOTE`: Chameleon cloud is +5 over Saint Louis time. 
+```bash 
+openstack reservation lease create \
+  --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "compute_cascadelake_r"]' \
+  --start-date "2026-10-13 15:10" \
+  --end-date "2026-10-19 15:00" \
+    test
+```
+### Creating the instance 
+After you create the lease you can crate the instance. First check the lease id: 
+```bash 
+openstack reservation lease show test | grep id 
+```
+Then check for your key: 
+```bash 
+openstack keypair list
+```
+then take the one next to id and write the following command: 
+```bash 
+openstack server create   --flavor baremetal   --image CC-Ubuntu22.04   --key-name <key>   --network sharednet1   --hint reservation=<id>   <node_name>
+```
+### Assigning Floating IP 
+
+Check if floating IP is free and not assigned to any machine: 
+```bash 
+openstack floating ip list
+```
+Then assign: 
+```bash 
+openstack server add floating ip <node_name> <FLOATING_IP>
+```
+
+### Connecting to the machine 
+
+Remove IP if the machine has changed 
+```bash 
+ssh-keygen -f ~/.ssh/known_hosts -R <IP>
+```
+Connect with: 
+```bash 
+ssh -i <key> cc@<FLOATING-IP>
+```
