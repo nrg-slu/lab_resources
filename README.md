@@ -34,11 +34,14 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 - Bevo 10.172.13.122
 - Bari (MISSING) 10.172.13.123
 
+### Server RTX 6000 PRO 
+- Angela Merkel 10.172.13.140
+
 ### Jetson AGX Thor 
 - Ragnarok 10.172.13.141
 
-### Server RTX 6000 PRO 
-- Angela Merkel 10.172.13.140
+### ThinkMate 
+- Sergio Mattarella 10.172.13.142
 
 
 ## Jetson Orin AGX Developer Kit 64GB
