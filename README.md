@@ -61,6 +61,9 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 - [SLURM](./resources/System%20Tutorials/SLURM.md)
 - [Docker](./resources/System%20Tutorials/Docker.pdf)
 
+## C++ stuff 
+
+- [OpenMP](./resources/Libraries_cpp_tutorial/openmp)
 
 ## Best Practices for Research
 
