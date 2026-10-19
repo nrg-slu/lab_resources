@@ -5,7 +5,7 @@ For the GUI tutorial refer to [pdf](./Chameleon.pdf) (Gently provided by Chiara 
 
 ## CLI Tutorial 
 
-### Getting started 
+### Getting started (Just the first time)
 
 Install the libraries before starting: 
 ```bash 
@@ -45,6 +45,10 @@ Which should results in the following output
 ```
 
 ### Reserving a machine 
+Run this: 
+```bash 
+source app-cred-mattia-openrc.sh
+```
 
 `NOTE`: Chameleon cloud is +5 over Saint Louis time. 
 ```bash 
@@ -57,9 +61,9 @@ openstack reservation lease create \
 ### Creating the instance 
 After you create the lease you can crate the instance. First check the lease id: 
 ```bash 
-openstack reservation lease show test | grep id 
+openstack reservation lease show test
 ```
-Then check for your key: 
+There are many IDs so check the one next to `reservations`. Then check for your key: 
 ```bash 
 openstack keypair list
 ```
