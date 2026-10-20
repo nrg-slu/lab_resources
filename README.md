@@ -54,12 +54,16 @@ All tests in [tests](https://github.com/nrg-slu/Tests/tree/main).
 
 - [code carbon library: Measuring energy consumption of python code](./resources/System%20Tutorials/code_carbon.md)
 - [pdsh: Running commands concurrently on multiple machines](./resources/System%20Tutorials/pdsh.md)
-- [Accessing servers](./resources/System%20Tutorials/server_connection.md)
 - [P4 Resources](./resources/System%20Tutorials/P4_tutorial.md)
-- [Chameleon](./resources/System%20Tutorials/chameleon.md)
-- [Libra](./resources/System%20Tutorials/Libra.pdf)
 - [SLURM](./resources/System%20Tutorials/SLURM.md)
 - [Docker](./resources/System%20Tutorials/Docker.pdf)
+
+## Machine Access 
+
+- [Chameleon](./resources/Machine%20Access/chameleon.md)
+- [Libra](./resources/Machine%20Access/Libra.pdf)
+- [Accessing servers](./resources/Machine%20Access/server_connection.md)
+- [VPN on Ubuntu](./resources/Machine%20Access/VPN_access.md)
 
 ## C++ stuff 
 
