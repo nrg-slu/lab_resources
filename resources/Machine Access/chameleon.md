@@ -83,6 +83,12 @@ then take the one next to id and write the following command:
 ```bash 
 openstack server create   --flavor baremetal   --image CC-Ubuntu22.04   --key-name <key>   --network sharednet1   --hint reservation=<id>   <node_name>
 ```
+
+### Creating a Floating IP 
+
+```bash 
+openstack floating ip create public
+```
 ### Assigning Floating IP 
 
 Check if floating IP is free and not assigned to any machine: 
