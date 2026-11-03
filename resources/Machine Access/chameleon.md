@@ -1,5 +1,7 @@
 # Chameleon Tutorial 
 `Author`: Mattia Fiore
+
+
 ## GUI Tutorial 
 For the GUI tutorial refer to [pdf](./Chameleon.pdf) (Gently provided by Chiara Camerota) or to the [chameleon link](https://chameleoncloud.readthedocs.io/en/v1.0/technical/reservations.html)
 
@@ -43,6 +45,16 @@ Which should results in the following output
 | user_id    |                                                                       |
 +------------+-------------------------------------------------------------
 ```
+### How to look for a machine and find the code 
+Open [link](https://discover.chameleoncloud.org/) and select your resources:
+
+
+<img src="../../images/chameleon1.png" width="500">
+
+You can select the needed node and get very easily the code for requesting in openstack. But you still have to follow the tutoiral on the CLI after. 
+
+
+<img src="../../images/chameleon2.png" width="500">
 
 ### Reserving a machine 
 Run this: 
