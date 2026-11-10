@@ -70,6 +70,12 @@ openstack reservation lease create \
   --end-date "2026-10-19 15:00" \
     test
 ```
+### Creating key pair 
+```bash 
+ssh-keygen -t ed25519 -f ~/.ssh/chameleon -C "mattia-chameleon"
+OS_CLOUD=tacc     openstack keypair create --public-key ~/.ssh/chameleon.pub mattia-chameleon
+OS_CLOUD=<entry-uc> openstack keypair create --public-key ~/.ssh/chameleon.pub mattia-chameleon
+```
 ### Creating the instance 
 After you create the lease you can crate the instance. First check the lease id: 
 ```bash 
@@ -108,5 +114,5 @@ ssh-keygen -f ~/.ssh/known_hosts -R <IP>
 ```
 Connect with: 
 ```bash 
-ssh -i <key> cc@<FLOATING-IP>
+ssh -i /.ssh/chameleon cc@<FLOATING-IP>
 ```
